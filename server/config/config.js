@@ -1,7 +1,7 @@
 const TABLE_NAME = 'all-for-you';
 const config = {
     PORT: process.env.PORT || 4000,
-     DB_CONNECTION: `mongodb+srv://admin:admin123@cluster0.e4imw64.mongodb.net/inventory_marketplace?retryWrites=true&w=majority`,
+     DB_CONNECTION: `mongodb+srv://admin:admin123@cluster0.e4imw64.mongodb.net/green_basket?retryWrites=true&w=majority`,
     SECRET: 'badumts',
     SALT: 10,
     COOKIE_NAME: 'USER_SESSION',

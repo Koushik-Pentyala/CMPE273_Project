@@ -4,8 +4,8 @@ import { Navbar, NavDropdown, Nav, OverlayTrigger, Tooltip } from 'react-bootstr
 import { NavLink } from 'react-router-dom';
 import { BsFillPersonFill, BsFillEnvelopeFill, BsFillPlusCircleFill } from 'react-icons/bs';
 import { IoLogOut } from 'react-icons/io5'
-import LOGO from './MPLOGO.png'
-
+// import LOGO from './MPLOGO.png'
+import LOGO from './NEWLOGO.jpeg'
 import './Header.css'
 function Header() {
     const { userData, setUserData } = useContext(Context)
