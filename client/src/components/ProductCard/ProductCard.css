@@ -118,7 +118,7 @@
     border-radius: 25px;
     font-weight: bold;
     color: black;
-    background-color: #FF5733;
+    background-color: #7fda69;
 }
 
 .blank-box{
@@ -137,7 +137,7 @@
 
 .fxd-prc{
     border-radius: 25px;
-    background-color: yellow;
+    background-color: red;
     padding-right:10px;
     padding-left:10px;
     padding-top:5px;

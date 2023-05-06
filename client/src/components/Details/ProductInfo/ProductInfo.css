@@ -37,23 +37,23 @@
 
 .fxd-prc{
     border-radius: 25px;
-    background-color: yellow;
+    background-color: #fd7e14;
     padding-right:10px;
     padding-left:10px;
     padding-top:5px;
     padding-bottom:5px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
 }
 
 .ngo-prc{
     border-radius: 25px;
-    background-color: red;
+    background-color: #f9cf00;
     padding-right:10px;
     padding-left:10px;
     padding-top:5px;
     padding-bottom:5px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
 }
 

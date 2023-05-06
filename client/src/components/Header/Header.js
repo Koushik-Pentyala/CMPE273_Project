@@ -11,7 +11,7 @@ function Header() {
     const { userData, setUserData } = useContext(Context)
 
     return (
-        <Navbar collapseOnSelect bg="light" variant="light">
+        <Navbar className="color-nav" variant="light">
             <div className="container">
                 <Navbar.Brand>
                     {/* <NavLink className="navbar-brand" to="/">Inventory Marketplace</NavLink> */}
@@ -27,7 +27,7 @@ function Header() {
                     </Nav>
                     {userData ?
                         (<Nav>
-                            <NavLink className="nav-item" id="addButton" to="/add-product">
+                            <NavLink className="add-item" id="addButton" to="/add-product">
                                 <OverlayTrigger key="bottom" placement="bottom"
                                     overlay={
                                         <Tooltip id={`tooltip-bottom`}>
@@ -56,7 +56,7 @@ function Header() {
                                         </div>
                                     </div>
                                 </NavLink>
-                                <NavLink className="dropdown-item" to="/auth/logout" onClick={() => {setUserData(null)}}>
+                                <NavLink className="dropdown-item" id="logoutButton" to="/auth/logout" onClick={() => {setUserData(null)}}>
                                     <div className="logout">
                                         <IoLogOut />Log out
                                     </div>
