@@ -86,7 +86,7 @@ function Aside({ params, history }) {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_elx3lfq', 'template_m5ugs62', form.current, 'feKr6dpO7jPPf6Y-d')
+        emailjs.sendForm('service_coq4xq3', 'template_ijzw5cw', form.current, 'oKBkQX-fqWoF0Khz5')
           .then((result) => {
               console.log(result.text);
               handleCloseDonate();
