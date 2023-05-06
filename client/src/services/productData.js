@@ -1,6 +1,7 @@
-// const baseUrl = 'http://localhost:5000';
 const baseUrl = 'http://localhost:4000';
-
+// import dotenv  from 'dotenv';
+// dotenv.config();
+// const baseUrl = process.env.SERVER_URL
 
 export async function getAll(page, category, query) {
     if (query !== "" && query !== undefined) {

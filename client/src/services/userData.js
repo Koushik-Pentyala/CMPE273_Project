@@ -1,5 +1,7 @@
-// const baseUrl = 'http://localhost:5000';
+// import dotenv  from 'dotenv';
+// dotenv.config();
 const baseUrl = 'http://localhost:4000';
+// const baseUrl = process.env.SERVER_URL
 
 export async function registerUser(userData) {
     return (await fetch(`${baseUrl}/auth/register`, {
