@@ -42,6 +42,11 @@
     margin-bottom: -5px;
     margin-right: -3px;
     font-size: 30pt;
+    color: #f8f9fa;
+}
+
+#logoutButton svg {
+    background-color: #f8f9fa;
 }
 
 #nav-sign-up {
@@ -49,7 +54,13 @@
 }
 
 #addButton {
-    padding: 7px;
+    padding: 10px;
+}
+
+.add-item.active, .add-item:focus, .add-item.active svg {
+    border-radius: 50px;
+    color: #f8f9fa;
+    background-color: #AAB7B8;
 }
 
 .navbar-nav .dropdown {
@@ -98,9 +109,9 @@
     padding:5px;
 }
 
-.dropdown-item:hover{
+/*.dropdown-item:hover{
     background-color: #f8f9fa;
-}
+}*/
 
 .dropdown-item.active, .dropdown-item:focus, .dropdown-item.active svg {
     border-radius: 50px;
@@ -117,14 +128,22 @@
 }
 
 .logout{
-    padding:8px;
+    padding:4px;
+    border-radius: 50px;
+    background: #f8f9fa;
+    border-style: solid;
+    border-color: black;
 }
+
 .logo-config{
     width:250px;
     height:80px;
 }
 
-
 .cnts-btn{
     border-radius: 20px;
+}
+
+.color-nav{
+    background-color: #09624B;
 }
